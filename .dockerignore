@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 测试和文档
+tests/
+docs/
+*.md
+!README.md
+
+# 其他
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# 敏感配置（可选，如果你想在构建时排除）
+# cookies.yaml
