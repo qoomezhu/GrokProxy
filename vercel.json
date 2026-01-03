@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "openairequest.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "openairequest.py"
+    }
+  ],
+  "functions": {
+    "openairequest.py": {
+      "maxDuration": 60
+    }
+  },
+  "env": {
+    "PYTHONUNBUFFERED": "1"
+  }
+}
